@@ -2,7 +2,7 @@
 
     <section class="search">
         <div class="container" data-aos="fade-up">
-           <h1>Page not found!</h1>
+           <h1>Page not found! :D</h1>
 		        <?php
 		        get_search_form();
 		        ?>
