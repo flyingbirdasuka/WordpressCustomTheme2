@@ -1,12 +1,9 @@
  <!-- ======= Footer ======= -->
 </main><!-- End #main -->
   <footer id="footer">
-
-
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Links</h4>
             <ul>
@@ -25,14 +22,12 @@
               <li><i class="bx bx-chevron-right"></i> <a href="/#services">Business Development</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="/#services">IP Intelligence for Business</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="/#services">Open Innovation</a></li>
-          
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
               <strong>Email:</strong> info@watanabe-rc.com<br>
             </p>
-
           </div>
 
           <div class="col-lg-3 col-md-6 footer-info">
@@ -43,7 +38,6 @@
               <a href="https://www.linkedin.com/in/satoshi-watanabe-9ba74a17/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
           </div>
-
         </div>
       </div>
     </div>
@@ -57,11 +51,5 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <?php wp_footer(); ?>
-
-  <script>
-  
-  </script>
-
 </body>
-
 </html>
