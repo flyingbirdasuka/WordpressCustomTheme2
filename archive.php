@@ -3,7 +3,6 @@
 <!-- ======= Breadcrumbs ======= -->
 <section id="breadcrumbs" class="breadcrumbs">
   <div class="container">
-
     <ol>
       <li><a href="/">Home</a></li>
       <li><a href="/blog">Blog</a></li>
@@ -12,22 +11,12 @@
   </div>
 </section><!-- End Breadcrumbs -->
 
-
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
   <section id="blog" class="blog">
     <div class="container" data-aos="fade-up">
-
       <div class="row">
-
           <div class="col-lg-8 entries">
-
             <div class="container" data-aos="fade-up">
-
-              <header class="page-header">
-              </header><!-- .page-header -->
-                  <!-- <div class="row"> -->
               <div class="col-lg-12 entries">
           
                 <?php while ( have_posts() ) : the_post(); ?>
@@ -49,9 +38,7 @@
         </div>
 
         <div class="col-lg-4">
-
                 <div class="sidebar">
-
                   <h3 class="sidebar-title">Search</h3>
                   <div class="sidebar-item search-form">
                     
@@ -99,8 +86,6 @@
                             <div class="relatedcontent">
                               <h4><a href="<?php the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h4>
                                 <div class="related-date"><?php the_date(); ?></div>
-                              <!-- <p></p> -->
-                              
                             </div>
                           </li>
                           <?php }
