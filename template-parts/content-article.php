@@ -3,14 +3,10 @@
   <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
-
         <ol>
           <li><a href="/">Home</a></li>
           <li><a href="<?php the_permalink()?>"><?php the_category(' '); ?></a></li>
-
         </ol>
-        <h2><?php //the_category(' '); ?></h2>
-
       </div>
     </section><!-- End Breadcrumbs -->
 
@@ -42,7 +38,6 @@
                   <?php the_content(); ?>     
 
               </div>
-
             
               <div class="entry-footer">
                 <i class="bi bi-tags"></i>
@@ -88,7 +83,6 @@
                 <?php 
                      // the query
                      $the_query = new WP_Query( array(
-                       // 'category_name' => 'news',
                         'posts_per_page' => 6,
                      )); 
                   ?>
