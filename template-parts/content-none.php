@@ -23,7 +23,6 @@
               <header class="page-header">
                     <h3 class="search-title"> <?php echo $wp_query->found_posts; ?> <?php _e( 'Search Results Found For', 'locale' ); ?>: "<?php the_search_query(); ?>" </h3>
               </header><!-- .page-header -->
-                  <!-- <div class="row"> -->
               <div class="col-lg-8 entries">
           
                 <?php while ( have_posts() ) : the_post(); ?>
@@ -105,9 +104,6 @@
                       }
                       $post = $orig_post;
                       wp_reset_query(); ?>
-                
-                    <?php // example_cats_related_post() ?>
-
                   </div>
 
                 </div><!-- End sidebar -->
