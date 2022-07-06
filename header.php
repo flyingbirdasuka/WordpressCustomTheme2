@@ -48,7 +48,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     global $wp;
     wp_head();
   ?>
-
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d7fb84976f126c637aa6a6fb8/ecd45b043c3d26eec4d1581dc.js");</script>
 </head>
 
 <body>
@@ -59,9 +59,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <!-- ======= Top Bar ======= -->
   <div id="topbar" class="fixed-top d-flex align-items-center topbar-inner-pages ">
     <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
-      <!-- <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope-fill"></i><a href="mailto:info@watanabe-rc.com">info@watanabe-rc.com</a>
-      </div> -->
       <div class="cta contact-info align-items-center">
         <a href="/jp/<?php echo $wp->request; ?>" class="scrollto">日本語</a>
         <a href="/en/<?php echo $wp->request; ?>" class="scrollto">English</a>
@@ -86,8 +83,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                )
 
   			)?> 
-
-
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
