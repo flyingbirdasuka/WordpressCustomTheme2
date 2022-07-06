@@ -1,7 +1,4 @@
-
- <?php get_header();?>
-
- 
+<?php get_header();?>
      <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
       
@@ -16,28 +13,22 @@
         <div class="container">
       <?php } ?>
         
-
       </div>
     </section><!-- End Breadcrumbs -->
 
     <section id="blog" class="blog">
       <div class="container" data-aos="fade-up">
-
         <div class="row">
 
           <?php
             if (get_post()->post_name == "blog") { ?>
-
               <div class="col-lg-8 entries">
-              
-              
                 
                 <?php $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
                  
                 <?php if ( $wpb_all_query->have_posts() ) : ?>
                   <h4>Recent Posts</h4>
                   <ul>
-                    <!-- the loop -->
                     <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
 
                         <div class="row">
@@ -48,8 +39,6 @@
                           </div>
                         </div>  
                     <?php endwhile; ?>
-                    <!-- end of the loop -->
-                   
                   </ul>
                  
                   <?php wp_reset_postdata(); ?>
@@ -61,9 +50,7 @@
               </div>
 
               <div class="col-lg-4">
-
                 <div class="sidebar">
-
                   <h3 class="sidebar-title">Search</h3>
                   <div class="sidebar-item search-form">
                     
@@ -81,9 +68,7 @@
                             'show_count' => true,
                             'title_li' => ""
                           ));
-
                         ?>
-                          
                     </ul>
                   </div><!-- End sidebar categories-->
 
@@ -91,9 +76,7 @@
                   <div class="sidebar-item recent-posts">
 
                     <?php 
-                         // the query
                          $the_query = new WP_Query( array(
-                           // 'category_name' => 'news',
                             'posts_per_page' => 6,
                          )); 
                       ?>
@@ -107,16 +90,12 @@
                                 <div class="related-date"><?php the_date(); ?></div>
                               </div>
                             </li>    
-                          
-
                         <?php endwhile; ?>
                         <?php wp_reset_postdata(); ?>
 
                       <?php else : ?>
                         <p><?php __('No News'); ?></p>
                       <?php endif; ?>
-                   
-
                   </div>
 
                 </div><!-- End sidebar -->
