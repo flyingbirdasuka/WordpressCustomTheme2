@@ -26,7 +26,6 @@
               <header class="page-header">
                
               </header><!-- .page-header -->
-                  <!-- <div class="row"> -->
               <div class="col-lg-8 entries">
           
                 <?php while ( have_posts() ) : the_post(); ?>
@@ -108,9 +107,6 @@
                       }
                       $post = $orig_post;
                       wp_reset_query(); ?>
-                
-                    <?php // example_cats_related_post() ?>
-
                   </div>
 
                 </div><!-- End sidebar -->
